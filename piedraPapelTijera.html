@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	function ganador(){
+	var a = ['Piedra', 'Papel','Tijera'];
+	var numero_a=a.length;
+	numero=Math.floor(Math.random()*numero_a);
+	console.log(a[numero]);
+	if (a[numero]=='Piedra') {
+		var texto="<img src='piedra.jpg' alt='piedra' />";
+	}
+	}
+	
+</script>
+<body>
+	<button type="button" onclick="ganador()">Jugar</button>
+	
+
+</body>
+</html>

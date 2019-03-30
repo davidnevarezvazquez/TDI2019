@@ -1,0 +1,25 @@
+.uno{
+	font-family: 'Raleway', sans-serif;
+}
+.dos{
+	font-family: 'Anton', sans-serif;
+}
+#divuno{
+	border-style: solid;
+	border-width: 3px;
+	width: 50%;
+	height: 200px;
+}
+#divdos{
+	border-style: solid;
+	border-width: 3px;
+	width: 500px;
+	height: 100px;
+}
+span{
+	font-size: 100px;
+}
+i{
+	color: blue;
+
+}
